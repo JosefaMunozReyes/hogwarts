@@ -1,0 +1,15 @@
+<h1>HOWARTS PERSONAJES</h1>
+
+
+<div class="my-5 row">
+    <% @characters.each do |char| %>
+        <div class="mb-5 col">
+            <div class="card tarjeta">
+                <p>Nombre: <%= char.name %></p>
+                <p>Location: <%= char.location %></p>
+                <p>House: <%= char.house %></p>
+            </div>
+        </div>
+    <% end%>
+
+ </div>

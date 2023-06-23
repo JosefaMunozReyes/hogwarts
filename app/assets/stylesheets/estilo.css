@@ -1,0 +1,9 @@
+.body{
+    background-image: url("howarts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tarjeta{
+    background-color: white;
+    color: black;
+}
